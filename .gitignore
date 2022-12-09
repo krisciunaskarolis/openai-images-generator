@@ -1,0 +1,7 @@
+/.docker
+/images
+/vendor
+composer.lock
+docker-compose.yml
+Makefile
+.idea
