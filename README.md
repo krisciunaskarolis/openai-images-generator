@@ -68,3 +68,6 @@ When saving images, placeholder in filename format will be replaced by images co
 ## Limitations
 
 According to OpenAI, The Images API is in beta. During this time the API and models will evolve. To ensure all users can prototype comfortably, the default rate limit is 20 images per minute, 50 per 5 minutes.
+
+## Authors
+- [Karolis Kriščiūnas](mailto:karolis.krisciunas@gmail.com)

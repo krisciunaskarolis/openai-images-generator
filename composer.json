@@ -12,6 +12,7 @@
       "email" : "karolis.krisciunas@gmail.com"
     }
   ],
+  "license" : "MIT",
   "require": {
     "guzzlehttp/guzzle": "^7.5"
   }
