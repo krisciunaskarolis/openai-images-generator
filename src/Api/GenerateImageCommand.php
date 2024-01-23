@@ -33,7 +33,8 @@ class GenerateImageCommand implements ApiCommandInterface
         $parsedResponse = json_decode($response->getBody()->getContents(), true);
 
         if (!is_array($parsedResponse) || !isset($parsedResponse['data'])) {
-            throw new RuntimeException('Response format unsupported.');
+            $error = $parsedResponse['error']['message'] ?? 'Response format unsupported.';
+            throw new RuntimeException($error);
         }
 
         return $parsedResponse['data'];
